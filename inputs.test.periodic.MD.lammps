@@ -37,7 +37,7 @@ MC_cell_min_aspect_ratio=0.9
 # use LAMMPS
 energy_calculator=lammps
 # name of the LAMMPS machine (the one that *YOUR* LAMMPS was built with)
-LAMMPS_name=mpi
+# LAMMPS_name=mpi
 # potential parameters
 LAMMPS_init_cmds=pair_style lj/cut 9.00; pair_coeff * * 0.1 3.0; pair_modify shift yes
 LAMMPS_atom_types=H 1
